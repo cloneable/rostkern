@@ -1,0 +1,8 @@
+[package]
+name = "rostkern"
+version = "0.1.0"
+edition = "2021"
+authors = ["Folke Behrens <folke@gmail.com>"]
+description = "An attempt at writing a very simply kernel with bootloader in Rust"
+
+[dependencies]
