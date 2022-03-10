@@ -6,3 +6,9 @@ authors = ["Folke Behrens <folke@gmail.com>"]
 description = "An attempt at writing a very simply kernel with bootloader in Rust"
 
 [dependencies]
+
+[profile.release]
+panic = "abort"
+
+[profile.dev]
+panic = "abort"
